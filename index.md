@@ -1,4 +1,11 @@
-## Welcome Nhi Pham's Personal Website
+<p align="center">
+  <b> Nhi Pham </b><br>
+  <a href="#">About</a> |
+  <a href="#">Resume</a> |
+  <a href="#">Contact</a>
+  <br><br>
+  <img src="https://drive.google.com/drive/u/1/my-drive">
+</p>
 
 # Header 1
 ## Header 2
