@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="link">
+        <a href="">About &nbsp</a>
+        <a href="https://drive.google.com/file/d/1DSde-MS5a7n32AvcFzS057US3bheJQ7w/view">Resume &nbsp</a>
+        <a href="https://www.linkedin.com/in/nhi-pham-le-yen-10913a111/">LinkedIn &nbsp</a>
+        <a href="" target="_self" title="Leave me a message :P" >Contact</a>
+    </div>
+    <style>
+        a {
+          text-align: center;
+        }
+        a:link {
+          color: green; 
+          background-color: transparent; 
+          text-decoration: none;
+        }
+
+        a:visited {
+          color: whitesmoke;
+          background-color: transparent;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: grey;
+          background-color: transparent;
+        }
+
+        a:active {
+          color: yellow;
+          background-color: transparent;
+        }
+        .link {
+          float: right;
+          padding-right: 70px;
+        }
+</style>
+</head>
+<body>
+   <div>
+         <h1> CONTACT ME: </h1>
+   </div>
+    <center> 
+        <form method="post" action="send_mail.php">
+            <p>
+                <label>Name
+                <input type="text" name="full_name" required>
+                </label> 
+            </p>
+            <p>
+                <label>Email 
+                <input type="email" name="valid_email">
+                </label>
+            </p>
+            <p>
+                <label>Message
+                <textarea name="message" maxlength="400"></textarea>
+                </label>
+            </p>
+            <p><button>Submit</button></p>
+        </form>   
+    </center>
+    <style>
+        h1 {
+            margin-left: 90px;
+            margin-bottom: 50px;
+        }
+        body {
+          margin: 0;
+          padding: 0;
+          background-image: url("https://royalrankings.ae/wp-content/uploads/2016/11/Website-Design-Background-1.jpg");
+          background-size: cover;
+        }
+        h1 {
+            text-align: center;
+            padding-top: 150px;
+            color: whitesmoke;
+        }
+        form {
+            text-align: center;
+            margin: 0 auto;
+            background-color: transparent;
+            color: whitesmoke;
+        }
+        input {
+              justify-content: flex-start;
+              margin-left: 50px;
+              width: 350px;
+              background-color: gainsboro;
+        }
+        textarea {
+            width: 350px;
+            height: 200px;
+            margin-left: 33px;
+            background-color: gainsboro;
+        }
+        label {
+              display: inline-flex;
+              flex-direction: row;
+              justify-content: flex-start;
+              text-align: center;
+              width: 400px;
+              line-height: 26px;
+              margin-bottom: 10px;
+        }
+        button {
+            background-color: transparent;
+            color: whitesmoke;
+            margin-left: 90px;
+            font-size: 20px;
+            font: 
+        }
+    </style>
+</body>
+
+</html>
