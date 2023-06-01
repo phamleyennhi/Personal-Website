@@ -47,6 +47,7 @@ a:active{color: black}
 #special1 {
 	margin-left: 0px;}
 #special2 {
+  text-align: justify;
 	margin-left: 75px;}
 #specialImg {
   height:250px;
